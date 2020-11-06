@@ -8,3 +8,69 @@ html {
   font-size: 62.5%;
   box-sizing: border-box;
 }
+
+body {
+  height: 100vh;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: darkmagenta;
+}
+
+.title {
+  font-size: 6rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.between {
+  font-size: 4.5rem;
+  text-align: center;
+  color: darkmagenta;
+  margin-bottom: 20px;
+}
+
+.guess, .btn {
+  display: block;
+  width: 80%;
+  margin: 15px auto;
+  border: 2px solid darkmagenta;
+  border-radius: 5px;
+  background-color: transparent;
+  color:darkmagenta;
+  padding: 5px 10px;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.btn {
+  width: 40%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.guess::placeholder {
+  color:darkmagenta;
+}
+
+.guess:focus {
+  outline: none;
+}
+
+.info {
+  margin-top: 20px;
+  font-size: 3rem;
+  text-align: center;
+}
